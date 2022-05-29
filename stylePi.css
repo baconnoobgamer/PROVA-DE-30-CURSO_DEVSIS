@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+
+body { 
+    font-family: 'Sans', sans-serif;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.889);
+    /*background-color: rgb(28, 24, 33);*/
+    background-image: url("https://i.pinimg.com/originals/33/1e/31/331e31d369af02328c60b02a4532b24e.png" );
+    
+    position:fixed;
+    width:100%;
+    height:100%;
+  }
+
+
+h1 { 
+    text-align: left;
+    font-family: 'Sans',sans-serif;
+    font-size:30px;
+    color:rgba(255, 255, 255, 0.889);
+
+
+} 
+h2 { 
+    text-align: left;
+    font-family: 'Sans',sans-serif;
+    font-size:20px;
+    color:rgba(255, 255, 255, 0.889);
+
+
+}
+P {
+    text-align: left;
+    font-family: 'Sans',sans-serif;
+    font-size:20px;
+    color:rgba(255, 255, 255, 0.889);
+    
+}
+
+button{ 
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 255, 255, 0.081);
+    font-family: 'Sans',sans-serif;
+    font-size:20px;
+
+}
+
+.twitter{ 
+    opacity:0.5 ;
+   
+}
+
+.github{
+    opacity: 0.8;
+}
+.youtube{
+    opacity: 0.5;
+}

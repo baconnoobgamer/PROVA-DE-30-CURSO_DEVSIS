@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Novidades</title>
+    <link rel="stylesheet" type="text/css" href="stylePn.css" />
+    <meta charset="utf-8">
+  </head>
+  <body>
+   
+    <body>
+      <h1> Algumas novidades</h1>
+      <h2> Veja aqui novidades e proximas atualizações de nosso site</h2>
+      <p> ⬇ Preencha seu nome para sabermos quem foi o gênio que deu a ideia⬇</p>
+
+      <main class="nome">
+      <table>
+        <tr>
+          <td>Nome:</td>
+          <td><input type="text" name="nome" size="20"> <br /></td>
+        </tr>
+        <tr>
+          <td>Sobrenome:</td>
+          <td><input type="text" name="sobrenome" size="20"> <br /></td>
+        </tr>
+       </table>
+ </main>
+
+       <main class="idade"> 
+       <td> Idade: </td>
+       <input type="number" name="idade" size="20" maxlength="3">
+    </main>
+    
+
+    <p> ⬇De suas sugestões aqui⬇</p> 
+
+        <main class ="sugestao">
+       
+       <textarea rows="10" cols="40" maxlength="500"></textarea> 
+    </main>
+
+       
+          
+       
+
+
+            
+
+<button onclick="funcao1()">Enviar</button>
+
+<p id="demo"></p>
+
+<script>
+function funcao1()
+{
+var x;
+var r=confirm("Deseja mesmo enviar?");
+if (r==true)
+  {
+  x="Enviado com sucesso😀";
+  }
+else
+  { 
+  x="Você cancelou seu enviou🥺" ;
+  }
+document.getElementById("demo").innerHTML=x; 
+}
+</script>
+
+
+<a href="file:///C:/Users/User/Downloads/pagina%20inicial.html" target = "_parent"> 
+    <button> Voltar </button>
+    </a>
+
+      </body>
+      </html>
+      
